@@ -1,0 +1,98 @@
+﻿https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_border_image
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_thumbnail_image
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+
+<h1>Using max-width: 100%</h1>
+
+<p>If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size.</p>
+
+<img src="img_chania.jpg" width="460" height="345">
+
+<p>Resize the browser window to see the effect.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  border: 15px solid aaa;
+}
+</style>
+</head>
+<body>
+
+<h2>Border Around Image</h2>
+<p>Use the border property to add a border to an image:</p>
+
+<img src="img_snow.jpg" alt="Snow" style="width:150px">
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  border: 5px solid red;
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
+}
+</style>
+</head>
+<body>
+
+<h2>Thumbnail Image</h2>
+<p>Click on the image to enlarge it.</p>
+
+<a target="_blank" href="img_forest.jpg">
+  <img src="img_forest.jpg" alt="Forest" style="width:150px">
+</a>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
